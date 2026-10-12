@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Trails Club – Hiking Events and Guides</title>
+  <meta name="description" content="Join Green Trails Club for weekly hikes, beginner guides and conservation events.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <p class="logo">Green Trails</p>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="#events" aria-current="page">Events</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Explore trails. Protect nature.</h1>
+      <p>Weekly group hikes for every fitness level.</p>
+      <a class="btn" href="#join">Become a member</a>
+    </section>
+
+    <section id="events" aria-labelledby="events-title">
+      <h2 id="events-title">Upcoming events</h2>
+      <ul class="cards">
+        <li class="card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='180'%3E%3Crect width='320' height='180' fill='%232d6a4f'/%3E%3Cpath d='M0 180 110 50l70 80 50-50 90 100z' fill='%2395d5b2'/%3E%3C/svg%3E"
+               alt="Green mountain ridge under a dark sky" width="320" height="180" loading="lazy">
+          <h3>Sunrise Ridge Hike</h3>
+          <p><time datetime="2026-10-18T06:00">Sun, 18 Oct, 6:00 AM</time> · Moderate · 8 km</p>
+        </li>
+        <li class="card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='180'%3E%3Crect width='320' height='180' fill='%231b4332'/%3E%3Ccircle cx='160' cy='90' r='50' fill='%23b7e4c7'/%3E%3C/svg%3E"
+               alt="Pale full moon above a forest" width="320" height="180" loading="lazy">
+          <h3>Forest Moon Walk</h3>
+          <p><time datetime="2026-10-24T19:00">Sat, 24 Oct, 7:00 PM</time> · Easy · 4 km</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="guides" aria-labelledby="guides-title">
+      <h2 id="guides-title">Beginner guides</h2>
+      <ul>
+        <li><a href="#guides">What to pack for a day hike</a></li>
+        <li><a href="#guides">Trail safety and etiquette</a></li>
+      </ul>
+    </section>
+
+    <section id="join" aria-labelledby="join-title">
+      <h2 id="join-title">Join the club</h2>
+      <form action="#" method="post">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-hint">
+        <p id="email-hint" class="hint">We only use your email for event updates.</p>
+        <button class="btn" type="submit">Sign up</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Green Trails Club</p>
+  </footer>
+</body>
+</html>
